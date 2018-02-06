@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asheslife.framework">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.asheslife.framework.core.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MaterialDesign">
+        <activity
+            android:name="com.asheslife.framework.sample.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asheslife.framework.sample.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.SampleListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.SampleListActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.SampleSectionListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.SampleSectionListActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.SampleTabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.SamplePageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.SampleLoopPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.asheslife.framework.sample.BannerActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

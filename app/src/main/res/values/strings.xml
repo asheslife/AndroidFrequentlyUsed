@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidFrequentlyUsed</string>
+
+    <string name="home_tab_news">News</string>
+    <string name="home_tab_topic">Topic</string>
+
+</resources>
