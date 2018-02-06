@@ -1,1 +1,1 @@
-#stay4it_framework
+#AndroidFrequentlyUsed
